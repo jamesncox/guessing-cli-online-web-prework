@@ -2,8 +2,9 @@
 def run_guessing_game
   # get user input to guess a number
   puts "Guess a number between 1 and 6."
+  
   number = rand(1..6)
-  input = gets.chomp
+  
    while input != "exit"
       if input == number
         puts "You guessed the correct number!"
